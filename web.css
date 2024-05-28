@@ -1,0 +1,77 @@
+.plans {
+    height: 50vh;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .myplandiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plans_hold div {
+    width: 250px;
+    /* background-color: green; */
+  }
+  
+  .plans_hold {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .myplandiv p {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .myplandiv button {
+    background-color: #4c57d6;
+    outline: none;
+    border: 0;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+  
+  .plan {
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 25px;
+    line-height: 40px;
+    z-index: 5;
+  }
+  
+  .plan ul li {
+    font-family: sans-serif;
+    list-style: none;
+  }
+  
+  .plan h3 {
+    font-size: 25px;
+  }
+  
+  .price {
+    width: 500px;
+    padding: 15px 0px;
+    background-color: #4c57d6;
+    color: white;
+    border-radius: 10px;
+    z-index: 10;
+    margin: 20px 0px;
+  }
+  .plan button {
+    padding: 10px 20px;
+    background-color: rgb(238, 230, 230);
+    outline: none;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 20px 0px;
+  }

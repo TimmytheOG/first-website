@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+        <title>Document</title>
+    </head>
+    <body>
+        Welcome to
+        <h1 id="title">School</h1>
+        <script src="index.js"></script>
+
+        <p id="demo"></p>
+        <script>
+        document.getElementById("demo").innerHTML = "John" + " " + "Doe";
+        </script>
+
+        <p id="was"> A paragraph</p>
+        <script>
+            function myfunction() {
+                document.getElementById("was").innerHTML = "Paragraph Changed"
+            }
+            function bfunction() {
+                document.getElementById("was").innerHTML = "A paragraph"
+            }
+        </script>
+        <button type="button" onclick="myfunction()"> Click Me!</button>
+        <button type="button" onclick="bfunction()" > Click Again!</button>
+        
+    
+    </body>
+</html>

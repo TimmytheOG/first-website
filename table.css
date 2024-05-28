@@ -1,0 +1,13 @@
+.worldT {
+    width :300px;
+    border-collapse: collapse;
+}
+.info{
+    border: 1px solid;
+}
+.info th{
+    border: 1px solid;
+}
+.info td{
+    border: 1px solid;
+}

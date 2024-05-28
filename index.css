@@ -1,0 +1,49 @@
+*  {
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+h3{
+    font-size: 30px;
+    color: brown;
+}
+.apple {
+    color: green;
+    font-size: 30px;
+}
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: orange;
+}
+.box3 {
+    background-color: yellow;
+}
+#mycontainer {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.parent {
+    height: 500px;
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
